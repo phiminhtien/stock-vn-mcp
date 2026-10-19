@@ -122,7 +122,7 @@ File cấu hình: `%APPDATA%\Claude\claude_desktop_config.json`:
 {
   "mcpServers": {
     "stock-analysis": {
-      "command": "C:\\Users\\[USERNAME]\\Desktop\\projects\\stock-vn-mcp\\StockMcpServer\\publish\\StockMcpServer.exe",
+      "command": "C:\\Users\\[USERNAME]\\Desktop\\StockMcpServer\\publish\\StockMcpServer.exe",
       "args": ["--transport", "stdio"]
     }
   }
@@ -133,7 +133,7 @@ File cấu hình: `%APPDATA%\Claude\claude_desktop_config.json`:
 Trong Cursor: `Settings` -> `Features` -> `MCP Servers` -> `Add New MCP Server`:
 - **Name**: `stock-analysis`
 - **Type**: `stdio`
-- **Command**: `dotnet run --project C:\Users\[USERNAME]\Desktop\projects\stock-vn-mcp\StockMcpServer\StockMcpServer.csproj -- --transport stdio`
+- **Command**: `dotnet run --project C:\Users\[USERNAME]\Desktop\StockMcpServer\StockMcpServer.csproj -- --transport stdio`
 
 ---
 
