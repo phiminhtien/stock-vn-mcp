@@ -108,7 +108,7 @@ Khi chạy ở chế độ HTTP, server cung cấp đầy đủ các endpoint:
 - **Trang Dashboard & Health Check**: `http://localhost:5000/` và `http://localhost:5000/health`
 
 ### 3. Menu chọn nhanh trực quan
-Bạn có thể nhấp đúp file [`run_server.bat`](file:///C:/Users/ADMIN/Desktop/agent-orchestration-tracking/run_server.bat) để chọn chế độ STDIO, HTTP hoặc xem hướng dẫn qua menu số.
+Bạn có thể nhấp đúp file [`run_server.bat`](../run_server.bat) để chọn chế độ STDIO, HTTP hoặc xem hướng dẫn qua menu số.
 
 ---
 
@@ -122,7 +122,7 @@ File cấu hình: `%APPDATA%\Claude\claude_desktop_config.json`:
 {
   "mcpServers": {
     "stock-analysis": {
-      "command": "C:\\Users\\ADMIN\\Desktop\\agent-orchestration-tracking\\StockMcpServer\\publish\\StockMcpServer.exe",
+      "command": "C:\\Users\\[USERNAME]\\Desktop\\projects\\stock-vn-mcp\\StockMcpServer\\publish\\StockMcpServer.exe",
       "args": ["--transport", "stdio"]
     }
   }
@@ -133,7 +133,7 @@ File cấu hình: `%APPDATA%\Claude\claude_desktop_config.json`:
 Trong Cursor: `Settings` -> `Features` -> `MCP Servers` -> `Add New MCP Server`:
 - **Name**: `stock-analysis`
 - **Type**: `stdio`
-- **Command**: `dotnet run --project C:\Users\ADMIN\Desktop\agent-orchestration-tracking\StockMcpServer\StockMcpServer.csproj -- --transport stdio`
+- **Command**: `dotnet run --project C:\Users\[USERNAME]\Desktop\projects\stock-vn-mcp\StockMcpServer\StockMcpServer.csproj -- --transport stdio`
 
 ---
 
