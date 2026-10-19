@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "stock-analysis": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "C:\\Users\\ADMIN\\Desktop\\agent-orchestration-tracking\\StockMcpServer\\StockMcpServer.csproj"
+      ]
+    }
+  }
+}
